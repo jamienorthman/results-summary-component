@@ -192,8 +192,16 @@ body {
     .main-container {
         display: flex;
         flex-direction: column;
+        margin: 0;
     }
     .summary-container {
         border-bottom-left-radius: 20px;
+    }
+    .result-container {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .attribution {
+        margin-top: 50px;
     }
 }
