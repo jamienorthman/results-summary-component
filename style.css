@@ -193,4 +193,7 @@ body {
         display: flex;
         flex-direction: column;
     }
+    .summary-container {
+        border-bottom-left-radius: 20px;
+    }
 }
