@@ -14,9 +14,9 @@ body {
  }
 
 .result-container {
-    background-color: hsl(228, 45%, 44%);
+    background: conic-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     width: 350px;
-    height: 450px;
+    height: 425px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body {
 }
 
 .total-score {
-    background-color: hsl(228, 70%, 35%);
+    background: conic-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     text-align: center;
     width: 100px;
@@ -69,18 +69,20 @@ body {
 .summary-container {
     background-color: hsl(0, 0%, 100%);
     width: 350px;
-    height: 450px;
+    height: 425px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: -4px 15px 20px -4px lightblue;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     padding: 20px;
 }
 
 .summary-header {
     color:hsl(224, 30%, 27%);
     font-size: 18px;
+    margin-left: 30px;
 }
 
 .categories {
@@ -92,7 +94,7 @@ body {
 
 .reaction {
     width: 275px;
-    height: 45px;
+    height: 35px;
     background-color: hsl(0, 40%, 62%);
     border-radius: 7px;
     padding: 10px;
@@ -103,7 +105,7 @@ body {
 
 .memory {
     width: 275px;
-    height: 45px;
+    height: 35px;
     background-color: hsl(39, 72%, 71%);
     border-radius: 7px;
     padding: 10px;
@@ -114,7 +116,7 @@ body {
 
 .verbal {
     width: 275px;
-    height: 45px;
+    height: 35px;
     background-color: hsl(166, 18%, 59%);
     border-radius: 7px;
     padding: 10px;
@@ -125,13 +127,24 @@ body {
 
 .visual {
     width: 275px;
-    height: 45px;
+    height: 35px;
     background-color: hsl(234, 55%, 60%);
     border-radius: 7px;
     padding: 10px;
     display: flex;
     align-items: center;
     color: hsl(234, 85%, 45%);
+}
+
+.reaction-text, .memory-text,
+.verbal-text, .visual-text {
+    display: flex;
+}
+
+.reaction-score, .memory-score,
+.verbal-score, .visual-score {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .continue-container {
@@ -142,7 +155,7 @@ body {
 
 .continue {
     border-radius: 50px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     width: 275px;
     background-color: hsl(224, 30%, 27%);
     border: none;
