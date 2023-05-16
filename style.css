@@ -14,7 +14,7 @@ body {
  }
 
 .result-container {
-    background: conic-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: linear-gradient(0deg, hsl(241, 81%, 54%, 1.0), hsl(252, 100%, 67%, 0.9));
     width: 350px;
     height: 425px;
     border-radius: 20px;
@@ -31,7 +31,7 @@ body {
 }
 
 .total-score {
-    background: conic-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     text-align: center;
     width: 100px;
