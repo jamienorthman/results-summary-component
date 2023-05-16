@@ -188,3 +188,9 @@ body {
     height: 10px;
 }
 
+@media (max-width: 600px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
