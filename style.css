@@ -31,7 +31,7 @@ body {
 }
 
 .total-score {
-    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    background: linear-gradient(0deg, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
     border-radius: 50%;
     text-align: center;
     width: 100px;
@@ -64,6 +64,7 @@ body {
 
 .result-text {
     color:hsl(0, 0%, 100%);
+    width: 225px;
 }
 
 .summary-container {
@@ -95,7 +96,7 @@ body {
 .reaction {
     width: 275px;
     height: 35px;
-    background-color: hsl(0, 40%, 62%);
+    background-color: hsl(0, 100%, 67%, 0.1);
     border-radius: 7px;
     padding: 10px;
     display: flex;
@@ -106,7 +107,7 @@ body {
 .memory {
     width: 275px;
     height: 35px;
-    background-color: hsl(39, 72%, 71%);
+    background-color: hsl(39, 100%, 56%, 0.1);
     border-radius: 7px;
     padding: 10px;
     display: flex;
@@ -117,7 +118,7 @@ body {
 .verbal {
     width: 275px;
     height: 35px;
-    background-color: hsl(166, 18%, 59%);
+    background-color: hsl(166, 100%, 37%, 0.1);
     border-radius: 7px;
     padding: 10px;
     display: flex;
@@ -128,7 +129,7 @@ body {
 .visual {
     width: 275px;
     height: 35px;
-    background-color: hsl(234, 55%, 60%);
+    background-color: hsl(234, 85%, 45%, 0.1);
     border-radius: 7px;
     padding: 10px;
     display: flex;
