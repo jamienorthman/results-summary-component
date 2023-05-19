@@ -93,7 +93,7 @@ body {
     gap: 1rem;
 }
 
-.reaction {
+.entry1 {
     width: 275px;
     height: 35px;
     background-color: hsl(0, 100%, 67%, 0.1);
@@ -104,7 +104,7 @@ body {
     gap: 7rem;
 }
 
-.memory {
+.entry2 {
     width: 275px;
     height: 35px;
     background-color: hsl(39, 100%, 56%, 0.1);
@@ -115,7 +115,7 @@ body {
     gap: 7rem;
 }
 
-.verbal {
+.entry3 {
     width: 275px;
     height: 35px;
     background-color: hsl(166, 100%, 37%, 0.1);
@@ -126,7 +126,7 @@ body {
     gap: 8rem;
 }
 
-.visual {
+.entry4 {
     width: 275px;
     height: 35px;
     background-color: hsl(234, 85%, 45%, 0.1);
@@ -137,30 +137,30 @@ body {
     gap: 8rem;
 }
 
-.reaction-text, .memory-text,
-.verbal-text, .visual-text {
+.entry1-text, .entry2-text,
+.entry3-text, .entry4-text {
     display: flex;
     gap: 1rem;
 }
 
-.reaction-text {
+.entry1-text {
     color: hsl(0, 100%, 67%);
 }
 
-.memory-text {
+.entry2-text {
     color: hsl(39, 100%, 56%);
 }
 
-.verbal-text {
+.entry3-text {
     color: hsl(166, 100%, 37%);
 }
 
-.visual-text {
+.entry4-text {
     color: hsl(234, 85%, 45%);
 }
 
-.reaction-score, .memory-score,
-.verbal-score, .visual-score {
+.entry1-score, .entry2-score,
+.entry3-score, .entry4-score {
     color: hsl(224, 30%, 27%);
 }
 
