@@ -8,7 +8,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -25,16 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot_Solution_Desktop.png)
-![](./Screenshot_Solution_Mobile.png)
+![](design/Screenshot_Solution_Desktop.png "Desktop")
+![](design/Screenshot_Solution_Mobile.png "Mobile")
 
 
 ### Links
 
 - Solution URL: (https://jamienorthman.github.io/results-summary-component/)
-- Live Site URL: 
-
-## My process
 
 ### Built with
 
